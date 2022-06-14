@@ -1,0 +1,29 @@
+.main{
+    /* height: 90vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10vh;
+    
+}
+.addBtn{
+    background-color: orangered;
+    padding: 0.6em 0.8em;
+    color:white;
+    border: none;
+    font-size: 1.8rem;
+   
+}
+.addBtn:hover{
+    color: black;
+    cursor: pointer;
+}
+
+
+@media (max-width:500px) {
+    .addBtn{
+        font-size: 1.4rem;
+        padding: 0.4em 0.5em;
+    }
+}

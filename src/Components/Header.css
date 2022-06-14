@@ -1,0 +1,32 @@
+ html{
+     font-size: 62.5%;
+ }
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+    padding: 2em 4em;
+    
+}
+.header-title{
+    font-size: 3rem;
+    text-transform: capitalize;
+}
+
+.search{
+    width: 200px;
+}
+
+@media (max-width:500px) {
+    .header-title{
+        font-size: 2rem;
+    }
+    .header{
+        padding: 1em 2em;
+    }
+
+   .searchInput{
+       width: 150px;
+   }
+    
+}
